@@ -617,13 +617,13 @@ img {
 
 /* BEFORE */
 .ba-before {
-    background-image: url('IMAGES/before.png');
+    background-image: url('IMAGES/afterhall.png');
     z-index: 1;
 }
 
 /* AFTER (IMPORTANT FIX: width controlled via JS now) */
 .ba-after {
-    background-image: url('IMAGES/afterhall.png');
+    background-image: url('IMAGES/before.png');
     z-index: 2;
     width: 50%;   /* initial */
     overflow: hidden;
